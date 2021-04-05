@@ -60,20 +60,20 @@ body {
 
 ul {
 
-  margin:0;
+  margin: 0;
   padding: 0px;
 
 }
 
 li, h3 {
 
-  list-style:none;
+  list-style: none;
 
 }
 
 input,button {
 
-  outline:none;
+  outline: none;
 
 }
 
@@ -228,19 +228,19 @@ li > .delete:hover {
 
 ul li input[type="text"] {
 
-    display:none
+    display: none
 
 }
 
 .editMode input[type="text"] {
 
-    display:inline-block;
-  width:224px
+    display: inline-block;
+  width: 224px
 
 }
 
 .editMode label {
 
-    display:none;
+    display: none;
 
 }
