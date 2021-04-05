@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: lato, sans-serif;
 }
-.aaa {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix img {
   width: 100%;
 }
-.aaa .moreInf {
+.matrix .moreInf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .matrix { 
     text-align: center;
   }
 }
-.centeredMainPageElement {
+.mainPage {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.taskRowWrapper {
+.taskWrapper {
   display: flex;
 }
 ul {
