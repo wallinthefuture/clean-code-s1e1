@@ -48,7 +48,7 @@ body {
 
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 
 }
 
@@ -141,6 +141,7 @@ label[for="newTask"] {
   margin: 0 0 20px;
 
 }
+
 #newTask {
 
   width: 318px;
@@ -178,6 +179,7 @@ li > input[type="checkbox"] {
   margin: 0 10px;
 
 }
+
 li > label {
 
   padding-left: 10px;
@@ -189,7 +191,7 @@ li > label {
 
 li >    input[type="text"] {
 
-  width: 226px
+  width: 226px;
 
 }
 
@@ -209,7 +211,7 @@ li > .delete:hover {
 
 .delete img:hover {
 
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 
 }
 
@@ -218,7 +220,7 @@ li > .delete:hover {
 
 #completedTasks label {
 
-    text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 
 }
@@ -228,19 +230,19 @@ li > .delete:hover {
 
 ul li input[type="text"] {
 
-    display: none
+  display: none;
 
 }
 
 .editMode input[type="text"] {
 
-    display: inline-block;
-  width: 224px
+  display: inline-block;
+  width: 224px;
 
 }
 
 .editMode label {
 
-    display: none;
+  display: none;
 
 }
