@@ -22,7 +22,7 @@ body {
 
 }
 
-.matrix .moreInf {
+.moreInf {
 
   font-family: fantasy, cursive;
 
@@ -65,13 +65,15 @@ ul {
 
 }
 
-li, h3 {
+li, 
+h3 {
 
   list-style: none;
 
 }
 
-input,button {
+input,
+button {
 
   outline: none;
 
@@ -189,7 +191,7 @@ li > label {
 
 }
 
-li >    input[type="text"] {
+li > input[type="text"] {
 
   width: 226px;
 
